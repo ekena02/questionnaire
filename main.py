@@ -23,10 +23,8 @@ class Questionnaires:
 
 
 
+datas = [("quel est la capitale de Madagascar ?",('Fianarantsoa','Toamasina','Antananarivo','Toliara'),'Antananarivo'),
+         ("Qui est le président de la republique à Madagascar ?",('Andry Rajoelina','Philibert Tsiranana','Donald Trump','Marc Ravalomanana'),'Andry Rajoelina')]
 
-questionnaire1 = Questionnaires("quel est la capitale de Madagascar ?",
-                               ('Fianarantsoa','Toamasina','Antananarivo','Toliara'),'Antananarivo')
-
-questionnaire2 = Questionnaires("Qui est le président de la republique à Madagascar ?",
-                               ('Andry Rajoelina','Philibert Tsiranana','Donald Trump','Marc Ravalomanana'),'Andry Rajoelina')
+for data in datas:Questionnaires(data[0],data[1],data[2])
 
