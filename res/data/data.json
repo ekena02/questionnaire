@@ -1,0 +1,17 @@
+[
+    {
+        "question": "Quel est la capitale de Madagascar?",
+        "choices": ["Fianarantsoa", "Toamasina", "Antananarivo", "Toliara"],
+        "answer": "Antananarivo"
+    },
+    {
+        "question": "En quel année le Stephen Hawking est décédé?",
+        "choices": ["2018", "2015", "2013", "2020"],
+        "answer": "2018"
+    },
+    {
+        "question": "Quel âge a la terre?",
+        "choices": ["1.4 Milliards d'année","100 Millions d'année","60 Milliards d'année","4 Milles ans"],
+        "answer": "1.4 Milliards d'année"
+    }
+]
