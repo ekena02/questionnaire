@@ -26,7 +26,7 @@ class Questionnaires:
         self.nb_parties= 0
         for data in self.datas:
             if not self.stop:
-                self.nb_parties +=0o1
+                self.nb_parties +=1
                 self.poser_question(data[0], data[1],data[2])
                 print("points : "+str(self.nb_points)+"/"+str(self.nb_parties))
     def poser_question(self,question,liste_reponses,reponse):
