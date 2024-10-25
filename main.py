@@ -14,8 +14,8 @@ class Questionnaires:
              ("laquelle de ces maladies est incurable ?", ["SIDA", 'Tuberculose', "Peste", "Choléra", "Corona virus"],
               "SIDA"),
              ("Quelle est le premier langage de programmation ?",["python","Langage C","Ruby", "Java"],"Langage C"),
-             ("Quel âge a la terre ?",["1,4 Milliards d'année","100 Millions d'année","60 Milliards d'année","4 Milles ans"],"1,4 Milliards d'année")
-
+             ("Quel âge a la terre ?",["1,4 Milliards d'année","100 Millions d'année","60 Milliards d'année","4 Milles ans"],"1,4 Milliards d'année"),
+             ("quel est le symbole chimique de potassium ?",['Po','K','Na','P'],"K")
              ]
 
 
@@ -26,9 +26,9 @@ class Questionnaires:
         self.nb_parties= 0
         for data in self.datas:
             if not self.stop:
-                self.nb_parties +=1
                 self.poser_question(data[0], data[1],data[2])
                 print("points : "+str(self.nb_points)+"/"+str(self.nb_parties))
+                self.nb_parties += 1
     def poser_question(self,question,liste_reponses,reponse):
         shuffle(liste_reponses)
         num_reponse = liste_reponses.index(reponse)

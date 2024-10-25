@@ -1,0 +1,21 @@
+CLI:
+	Question.question + ':'
+		Question.choix[0]
+		Question.choix[1]
+		...
+	'votre réponse : ' + (input)
+	Question.etat_booleen_reponse
+	Question.prochaine_question()
+
+
+
+GUI:
+	Question.question +':'
+		button(Question.choix[0])
+		button(Question.choix[0])
+		...
+	Question.etat_booleen_reponse
+	Question.prochaine_question()
+
+		
+		
